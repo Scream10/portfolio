@@ -15,13 +15,13 @@ Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 
 * npm install
 * npm start
-* ready in [http://localhost:3000](http://localhost:3000)
+* Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
 
 Ou
 
 * yarn install
 * yarn start
-* ready in [http://localhost:3000](http://localhost:3000)
+* Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
 
 ## À venir...
 
