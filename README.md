@@ -1,6 +1,6 @@
-# Portfolio | Nicolas Diot 
+# Portfolio | Nicolas Diot - © Copyright 2020
 
-[nicolasdiot.com](https://nicolasdiot.com)
+Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 
 ## Outils de développement
 
