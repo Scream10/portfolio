@@ -1,0 +1,33 @@
+import React from 'react';
+import './PortfolioList.css';
+
+function PortfolioList () {
+    return (
+        <div className="portfolio">
+            <div className="portfolio__project portfolio__project--left">
+                <div className="portfolio__number">
+                    <p>01</p>
+                </div>
+                <div className="portfolio__img portfolio__img--left">
+                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                </div>
+                <div className="portfolio__title">
+                    <h3>Ombeline Durey</h3>    
+                </div>    
+            </div>
+            <div className="portfolio__project portfolio__project--right">
+                <div className="portfolio__number">
+                    <p>02</p>
+                </div>
+                <div className="portfolio__img portfolio__img--left">
+                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                </div>
+                <div className="portfolio__title">
+                    <h3>AC Studio</h3>    
+                </div>    
+            </div>
+        </div>
+    )
+} 
+
+export default PortfolioList;

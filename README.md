@@ -23,7 +23,12 @@ Ou
 * yarn start
 * Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
 
-## À venir...
+## À venir dans un futur proche...
 
-* Animation JS
+* GSAP : TweenMax
+* ScrollMagic
 * Outil de test unitaire
+
+## À venir dans un futur plus ou moins proche...
+
+* Développement mobile du portfolio avec React Native

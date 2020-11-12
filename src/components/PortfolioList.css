@@ -1,0 +1,51 @@
+.portfolio {
+    max-width: 865px;
+    margin: 0 auto;
+}
+
+.portfolio__project {
+    position: relative;
+}
+
+.portfolio__project--right {
+    left: 55%;
+}
+
+.portfolio__img {
+    position: relative;
+    padding: 20px;
+    max-width: 390px;
+}
+
+.portfolio__img img {
+    width: 350px;
+    height: 530px;
+    object-fit: cover;
+}
+
+.portfolio__img--left {
+    left: 0;
+}
+
+.portfolio__number {
+    width: 390px;
+    text-align: center;
+}
+
+.portfolio__number p {
+    font-size: 160px;
+    font-family: 'Didot', sans-serif;
+    color:#EEEEEE;
+    line-height: 60%;
+} 
+
+.portfolio__title {
+    position: relative;
+    right: 24%;
+    bottom: 245px;
+    width: 390px;
+}
+
+.portfolio__title h3 {
+    transform: rotate(-90deg);
+} 
