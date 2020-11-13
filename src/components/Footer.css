@@ -9,11 +9,11 @@
 }
 
 .footer__sentence a {
-    color: #0061F3;
+    color: var(--primary);
 }
 
 .footer__banner {
-    background-color: #201E1E;
+    background-color: var(--header);
     height: 150px;
     width: 100%;
     padding: 20px 100px;
@@ -30,17 +30,17 @@
 }
 
 .footer__copyright {
-    color: #FBFBFB;
+    color: var(--white);
     font-family: 'Didot', sans-serif;
 }
 
 .footer__copyright a {
     text-decoration: none;
-    color:#FBFBFB;
+    color:var(--white);
 }
 
 .footer__contact h4, .footer__contact p, .footer__social h4 {
-    color: #FBFBFB;
+    color: var(--white);
 }
 
 .footer__contact p {
@@ -52,7 +52,7 @@
 }
 
 .footer__social .fab {
-    color: #FBFBFB;
+    color: var(--white);
     margin-right: 20px;
 }
 
@@ -75,6 +75,6 @@
     height: 16px;
     bottom: 0px;
     left: -8px;
-    background-color: #555555;
+    background-color: var(--button);
     z-index: -1;
 }

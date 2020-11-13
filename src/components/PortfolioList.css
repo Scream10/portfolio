@@ -39,7 +39,7 @@
 .portfolio__number p {
     font-size: 160px;
     font-family: 'Didot', sans-serif;
-    color:#EEEEEE;
+    color: var(--grid-line);
     line-height: 60%;
 } 
 

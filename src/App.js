@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Accueil from './components/pages/Acceuil';
 import Grid from './components/Grid';
 import Hamburger from './components/Hamburger';
+import Menu from './components/Menu';
 
 function App() {
   return (

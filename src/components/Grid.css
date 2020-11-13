@@ -5,7 +5,7 @@
     bottom: 0;
     width: 100%;
     z-index: -1;
-    background-color: #FBFBFB;
+    background-color: var(--white);
 }
 
 .grid .grid__container {
@@ -24,7 +24,7 @@
     top: 0;
     bottom: 0;
     width: 1px;
-    background-color: #eeeeee;
+    background-color: var(--grid-line);
 }
 
 .grid__line:first-child {
