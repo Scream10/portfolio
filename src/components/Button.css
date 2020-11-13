@@ -1,0 +1,58 @@
+.btn {
+    padding: 12px 24px;
+    background-color: #201E1E;
+    color: #FBFBFB;
+    transition: .3s ease-out;
+}
+
+a.btn {
+    text-decoration: none;
+    font-family: 'DIN Alternate', sans-serif;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.arrow {
+    max-height: 20px;
+    margin-top: 15px;
+    line-height: 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    content: "\279D";
+    color: #201E1E;
+    transform: rotate(90deg);
+}
+
+.arrow--white {
+    position: relative;
+    top: -57%;
+    left: 220px;
+    font-size: 2rem;
+    color: #FBFBFB;
+    transform: rotate(0deg);
+}
+  
+.arrow::after {
+    content: '\279D';
+}
+
+.btn-discover {
+    border: 1px solid #201E1E;
+    position: relative;
+    top: 1090px;
+    right: 8.7%;
+    max-height: 43px;
+}
+
+.btn-discover::after {
+    line-height: 1;
+    font-size: 1rem;
+    margin-left: 1rem;
+    content: "\279D";
+    color: #FBFBFB;
+} 
+
+.btn-discover:hover {
+    margin-left: 12px;
+}

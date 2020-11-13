@@ -1,14 +1,18 @@
 .portfolio {
     max-width: 865px;
     margin: 0 auto;
+    display: flex;
+    height: 1133px;
 }
 
 .portfolio__project {
     position: relative;
+    max-height: 800px;
 }
 
 .portfolio__project--right {
-    left: 55%;
+    left: 10%;
+    top: 400px;
 }
 
 .portfolio__img {
@@ -41,7 +45,7 @@
 
 .portfolio__title {
     position: relative;
-    right: 24%;
+    right: 52%;
     bottom: 245px;
     width: 390px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import PortfolioList from '../PortfolioList';
+import Footer from '../Footer';
 
 function Accueil () {
     return (
@@ -16,10 +17,10 @@ function Accueil () {
                     <div className="home-banner__text">
                         <h1>Ensemble développons votre site internet</h1>
                     </div>
-                    <span className="button__arrow"></span>
                 </div>
                 <div className="w-full mb-80">
-                    <p className="text-center">Découvrir</p>
+                    <p id="discover">Découvrir</p>
+                    <span className="arrow"></span>
                 </div>
                 <div className="container-text container-text__left">
                     <h2>Esthétique</h2>
@@ -53,11 +54,13 @@ function Accueil () {
                 </div>
                 <div id="services-banner">
                     <h3>Découvrir les services</h3>
+                    <span className="arrow arrow--white"></span>
                 </div>
                 <div id="realisation" className="container-text container-text__right">
                     <h2>Réalisations</h2>
                 </div>
                 <PortfolioList />
+                <Footer />
             </div>
         </>
     )

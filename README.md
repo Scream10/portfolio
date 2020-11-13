@@ -6,6 +6,7 @@ Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 
 * ReactJS
 * Sass
+* GSAP
 * ScrollMagic
 * HTML / CSS
 * Javascript
