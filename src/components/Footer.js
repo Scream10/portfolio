@@ -5,7 +5,7 @@ function Footer () {
     return (
         <footer className="footer">
             <div className="footer__sentence">
-                <h3>Un projet ? Besoin d'un devis ? N'hésitez pas à <a href="/">me contacter</a></h3>
+                <h3>Un projet ? Une question ? N'hésitez pas à <a href="/">me contacter</a></h3>
             </div>
             <div className="footer__banner">
                 <div className="footer__copyright">nicolasdiot.com | Copyright © 2020 | <a href="/">Mentions Légales</a></div>

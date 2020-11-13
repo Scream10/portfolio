@@ -14,14 +14,14 @@ function PortfolioList () {
                 </div>
                 <div className="portfolio__title">
                     <h3>Ombeline Durey</h3>    
-                </div>    
+                </div>
             </div>
             <div className="portfolio__project portfolio__project--right">
                 <div className="portfolio__number">
                     <p>02</p>
                 </div>
                 <div className="portfolio__img portfolio__img--left">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet AC Studio"/>
                 </div>
                 <div className="portfolio__title">
                     <h3>AC Studio</h3>    
