@@ -5,6 +5,10 @@
     height: 1133px;
 }
 
+.portfolio-small {
+    height: 567px;
+}
+
 .portfolio__project {
     position: relative;
     max-height: 800px;

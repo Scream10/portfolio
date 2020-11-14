@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import PortfolioList from '../PortfolioList';
-import Footer from '../Footer';
 
 function Accueil () {
     return (
@@ -60,7 +59,6 @@ function Accueil () {
                     <h2>Réalisations</h2>
                 </div>
                 <PortfolioList />
-                <Footer />
             </div>
         </>
     )

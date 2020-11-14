@@ -229,6 +229,14 @@ p {
   padding: 200px 98px 20px 98px;
 }
 
+.service__description--orange {
+  background-color: rgba(243, 146, 0, .1);
+}
+
+.service__description--black {
+  background-color: rgba(32, 30, 30, .1);
+}
+
 .service__description-content {
   width: 50%;
   margin-bottom: 20px;
