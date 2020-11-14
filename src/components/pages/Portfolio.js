@@ -1,8 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import { Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, useParams, useRouteMatch } from "react-router-dom";
 
 function Portfolio () {
+    let { path, url } = useRouteMatch();
+
     return (
         <>
             <div className="container-home">
@@ -18,7 +21,9 @@ function Portfolio () {
                             <p>01</p>
                         </div>
                         <div className="portfolio__img portfolio__img--left">
-                            <a href="/"><img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/></a>
+                            <Link to="{`${url}/rendering`}">
+                                <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                            </Link>
                         </div>
                         <div className="portfolio__title">
                             <h3>Ombeline Durey</h3>    
