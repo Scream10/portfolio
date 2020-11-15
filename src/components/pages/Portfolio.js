@@ -1,10 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom'
-import { BrowserRouter as Router, Switch, Route, useParams, useRouteMatch } from "react-router-dom";
 
 function Portfolio () {
-    let { path, url } = useRouteMatch();
 
     return (
         <>
@@ -21,7 +19,7 @@ function Portfolio () {
                             <p>01</p>
                         </div>
                         <div className="portfolio__img portfolio__img--left">
-                            <Link to="{`${url}/rendering`}">
+                            <Link to='{`${url}/rendering`}'>
                                 <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
                             </Link>
                         </div>
