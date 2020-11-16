@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import { Link } from 'react-router-dom'
 
 function Portfolio () {
 
@@ -19,9 +18,9 @@ function Portfolio () {
                             <p>01</p>
                         </div>
                         <div className="portfolio__img portfolio__img--left">
-                            <Link to='{`${url}/rendering`}'>
+                            <a href="/ombelinedurey">
                                 <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
-                            </Link>
+                            </a>
                         </div>
                         <div className="portfolio__title">
                             <h3>Ombeline Durey</h3>    
@@ -32,7 +31,9 @@ function Portfolio () {
                             <p>02</p>
                         </div>
                         <div className="portfolio__img portfolio__img--left">
-                            <a href="/"><img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet AC Studio"/></a>
+                            <a href="/acstudio">
+                                <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet AC Studio"/>
+                            </a>
                         </div>
                         <div className="portfolio__title">
                             <h3>AC Studio</h3>    
@@ -45,7 +46,9 @@ function Portfolio () {
                             <p>03</p>
                         </div>
                         <div className="portfolio__img portfolio__img--left">
-                            <a href="/"><img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet CoachMe"/></a>
+                            <a href="/coachme">
+                                <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet CoachMe"/>
+                            </a>
                         </div>
                         <div className="portfolio__title">
                             <h3>CoachMe</h3>    

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 
-function OmbelineDurey () {
+function CoachMe () {
     return (
         <>
             <div className="container-home">
@@ -10,26 +10,26 @@ function OmbelineDurey () {
                 </div>
                 <div className="projet-banner">
                     <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
-                    <h2>Ombeline Durey</h2>
+                    <h2>CoachMe</h2>
                 </div>
                 <div className="projet-information">
                     <div className="projet-information__content">
                         <h3>Mon rôle</h3>
-                        <p>Développeur Back-end</p>
                         <p>Développeur Front-end</p>
                     </div>
                     <div className="projet-information__content">
                         <h3>Outils</h3>
                         <ul>
-                            <li>WordPress</li>
+                            <li>Ruby on Rails</li>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Javascript</li>
+                            <li>Bootstrap</li>
                         </ul>
                     </div>
                     <div className="projet-information__content">
                         <h3>Site</h3>
-                        <a href="https://www.ombelinedurey.com/" target="_blank" rel="noreferrer">
+                        <a href="http://coachme.herokuapp.com/" target="_blank" rel="noreferrer">
                             <i class="fas fa-globe fa-2x"></i>
                         </a>
                     </div>
@@ -70,13 +70,13 @@ function OmbelineDurey () {
                 </div>
                 <div className="projet-change">
                     <div className="projet-change__prev">
-                        <a href="/coachme">
+                        <a href="/acstudio">
                             <p>Projet précédent</p>
                             <div className="arrow arrow--prev"></div>
                         </a>
                     </div>
                     <div className="projet-change__next">
-                        <a href="/acstudio">
+                        <a href="/ombelinedurey">
                             <p>Projet suivant</p>
                             <div className="arrow arrow--next"></div>
                         </a>
@@ -87,4 +87,4 @@ function OmbelineDurey () {
     )
 }
 
-export default OmbelineDurey;
+export default CoachMe;

@@ -10,7 +10,9 @@ function PortfolioList () {
                     <p>01</p>
                 </div>
                 <div className="portfolio__img portfolio__img--left">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                    <a href="/ombelinedurey">
+                        <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/ >
+                    </a>
                 </div>
                 <div className="portfolio__title">
                     <h3>Ombeline Durey</h3>    
@@ -21,7 +23,9 @@ function PortfolioList () {
                     <p>02</p>
                 </div>
                 <div className="portfolio__img portfolio__img--left">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet AC Studio"/>
+                    <a href="/acstudio">
+                        <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet AC Studio"/>
+                    </a>
                 </div>
                 <div className="portfolio__title">
                     <h3>AC Studio</h3>    
