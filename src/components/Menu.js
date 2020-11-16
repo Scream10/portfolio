@@ -42,7 +42,7 @@ function Menu () {
                 </div>
                 <div className="menu__section">
                     <div className="menu__info">
-                        <a href="/" className="hamburger hamburger--closed"></a>
+                        <a href="/" className="hamburger hamburger--closed">Contenttochange</a>
                         <p className="menu__menu">Menu</p>
                     </div>
                 </div>

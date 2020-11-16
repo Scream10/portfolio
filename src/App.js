@@ -5,6 +5,7 @@ import Accueil from './components/pages/Acceuil';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
 import OmbelineDurey from './components/pages/OmbelineDurey';
+import APropos from './components/pages/APropos';
 import Grid from './components/Grid';
 import Hamburger from './components/Hamburger';
 import Menu from './components/Menu';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/ombelinedurey' component={OmbelineDurey} />
+        <Route path='/apropos' component={APropos} />
       </Switch>
       <Footer />
     </Router>

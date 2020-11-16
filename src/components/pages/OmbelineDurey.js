@@ -42,7 +42,7 @@ function OmbelineDurey () {
                 <div className="projet-concept">
                     <img src={process.env.PUBLIC_URL + "img/projet-test.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
-                        <h3>Concept</h3>
+                        <h3>Résumer</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -51,9 +51,35 @@ function OmbelineDurey () {
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
+                <div className="projet-concept projet-concept--center">
+                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img projet-concept__img--left" alt="MacBook Pro Mockup"/>
+                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img projet-concept__img--right" alt="MacBook Pro Mockup"/>
+                </div>
                 <div className="projet-concept">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img" alt="MacBook Pro Mockup"/>
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img" alt="MacBook Pro Mockup"/>
+                    <div className="projet-concept__text projet-concept__text--left">
+                        <h3>Version mobile</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <img src={process.env.PUBLIC_URL + "img/iphone-mockup.png"} className="projet-concept__iphone-mockup" alt="MacBook Pro Mockup"/>
+                </div>
+                <div className="projet-change">
+                    <div className="projet-change__prev">
+                        <a href="/">
+                            <p>Projet précédent</p>
+                            <div className="arrow arrow--prev"></div>
+                        </a>
+                    </div>
+                    <div className="projet-change__next">
+                        <a href="/">
+                            <p>Projet suivant</p>
+                            <div className="arrow arrow--next"></div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </>

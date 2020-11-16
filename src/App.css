@@ -125,6 +125,11 @@ p {
   left: calc(66.55% - 85px);
 }
 
+.container-text h4 {
+  margin-bottom: 30px;
+  color: var(--text);
+}
+
 .mb-80 {
   margin-bottom: 80px;
 }
@@ -299,8 +304,16 @@ p {
 .projet-concept {
   display: flex;
   width: 100%;
-  margin: 120px 0;
+  margin: 140px 0;
 } 
+
+.projet-concept:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.projet-concept--center {
+  justify-content: center;
+}
 
 .projet-concept__mac-mockup {
   width: 500px;
@@ -308,9 +321,109 @@ p {
   margin-left: 150px;
 }
 
+.projet-concept__iphone-mockup {
+  width: 450px;
+  object-fit: cover;
+  margin-left: 300px;
+}
+
 .projet-concept__text {
   position: relative;
   left: 4.9%;
   margin-top: 30px;
   max-width: 536px;
+}
+
+.projet-concept__text--left {
+  left: 16.8%;
+  margin-top: 150px;
+}
+
+.projet-concept__img {
+  width: 460px;
+  object-fit: cover;
+  box-shadow: 50px 50px 30px rgba(0, 0, 0, .15);
+}
+
+.projet-concept__img--left {
+  position: relative;
+  height: 510px;
+  left: 50px;
+  z-index: 2;
+}
+
+.projet-concept__img--right {
+  position: relative;
+  height: 460px;
+  right: 50px;
+  top: 150px;
+  z-index: 1;
+}
+
+.projet-change {
+  display: flex;
+  width: calc(100% - 100px);
+  margin: 0 50px;
+  justify-content: space-between;
+} 
+
+.projet-change a {
+  text-decoration: none;
+}
+
+.projet-change__prev p, .projet-change__next p {
+  color: var(--header);
+}
+
+.apropos {
+  display: flex;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.apropos img {
+  object-fit: cover;
+  width: 260px;
+  height: 360px;
+  margin: 0 100px;
+}
+
+.working-method {
+  width: calc(100% - 33.6%);
+  margin: 0 16.8%;
+}
+
+.working-method__box {
+  position: relative;
+  width: 100%;
+  max-width: 676px;
+  padding-bottom: 80px;
+}
+
+.working-method__box:nth-child(2n) {
+  left: 50%;
+}
+
+.working-method__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.working-method__title .fas, .working-method__title .far {
+  margin-left: 15px;
+  color: var(--secondary);
+} 
+
+.working-method__content {
+  display: flex;
+  align-items: center;
+}
+
+.working-method__number {
+  font-family: 'Didot', sans-serif;
+  font-size: 96px;
+  line-height: normal;
+  color: var(--grid-line);
+  margin-left: 40px;
 }
