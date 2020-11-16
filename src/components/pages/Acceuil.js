@@ -6,7 +6,7 @@ function Accueil () {
     return (
         <>
             <div className="container-home">
-                <div id="nd">
+                <div className="nd">
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="home-banner">
@@ -21,7 +21,7 @@ function Accueil () {
                     <p id="discover">Découvrir</p>
                     <span className="arrow"></span>
                 </div>
-                <div className="container-text container-text__left">
+                <div className="container-text container-text--left">
                     <h2>Esthétique</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -31,7 +31,7 @@ function Accueil () {
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div className="container-text container-text__middle">
+                <div className="container-text container-text--middle">
                     <h2>Performant</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -41,7 +41,7 @@ function Accueil () {
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div className="container-text container-text__left">
+                <div className="container-text container-text--left">
                     <h2>Responsive Design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -57,10 +57,13 @@ function Accueil () {
                         <span className="arrow arrow--white"></span>
                     </a>
                 </div>
-                <div id="realisation" className="container-text container-text__right">
+                <div id="realisation" className="container-text container-text--right">
                     <h2>Réalisations</h2>
                 </div>
                 <PortfolioList />
+                <div className="footer-sentence">
+                    <h3>Un projet ? Une question ? N'hésitez pas à <a href="/contact">me contacter</a></h3>
+                </div>
             </div>
         </>
     )

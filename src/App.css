@@ -58,7 +58,7 @@ p {
   z-index: 10000;
 }
 
-#nd {
+.nd {
   position: relative;
   top: 50px;
   width: 10%;
@@ -66,7 +66,7 @@ p {
   background-color: transparent;
 }
 
-#nd p {
+.nd p {
   font-family: 'Didot', sans-serif;
   color: var(--header);
 }
@@ -113,21 +113,25 @@ p {
   padding-bottom: 80px;
 } 
 
-.container-text__left {
+.container-text--left {
   left: 16.8%;
 }
 
-.container-text__middle {
+.container-text--middle {
   left: 50%;
 }
 
-.container-text__right {
+.container-text--right {
   left: calc(66.55% - 85px);
 }
 
 .container-text h4 {
   margin-bottom: 30px;
   color: var(--text);
+}
+
+.container-text--long {
+  max-width: 800px;
 }
 
 .mb-80 {
@@ -170,7 +174,7 @@ p {
   position: relative;
   text-align: center;
   width: 100%;
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .service {
@@ -366,8 +370,8 @@ p {
 
 .projet-change {
   display: flex;
-  width: calc(100% - 100px);
-  margin: 0 50px;
+  width: calc(100% - 200px);
+  margin: 0 50px 50px 100px;
   justify-content: space-between;
 } 
 
@@ -430,4 +434,79 @@ p {
   line-height: normal;
   color: var(--grid-line);
   margin-left: 40px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 33.6);
+  margin: 0 16.8%;
+}
+
+.contact-form {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 1px solid var(--header);
+  font-size: 16px;
+  font-family: 'DIN Alternate', sans-serif;
+  background-color: var(--white);
+  margin-bottom: 30px;
+}
+
+.contact-form input {  
+  line-height: 25px;
+}
+
+.contact-form textarea {  
+  line-height: normal;
+  height: 150px;
+  resize: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+} 
+
+.contact-text {
+  position: relative;
+  left: -77px;
+  max-width: 400px;
+}
+
+.contact-text p {
+  margin-bottom: 20px;
+} 
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 31.2%);
+  margin: 30px 16.8% 80px 16.8%;
+}
+
+.contact-info__content {
+  position: relative;
+}
+
+.contact-info__content:first-child, .contact-info__content:nth-child(2) {
+  left: 0;
+}
+
+.contact-info__content:last-child {
+  left: 6.1%;
+}
+
+.contact-info__content .fab {
+  margin-right: 20px;
+}
+
+.contact-info__content p {
+  margin-bottom: 5px;
 }

@@ -6,7 +6,7 @@ function Portfolio () {
     return (
         <>
             <div className="container-home">
-                <div id="nd">
+                <div className="nd">
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="header-top">
@@ -54,6 +54,9 @@ function Portfolio () {
                             <h3>CoachMe</h3>    
                         </div>
                     </div>
+                </div>
+                <div className="footer-sentence">
+                    <h3>Un projet ? Une question ? N'hésitez pas à <a href="/contact">me contacter</a></h3>
                 </div>
             </div>
         </>

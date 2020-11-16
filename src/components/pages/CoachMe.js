@@ -5,7 +5,7 @@ function CoachMe () {
     return (
         <>
             <div className="container-home">
-                <div id="nd">
+                <div className="nd">
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="projet-banner">

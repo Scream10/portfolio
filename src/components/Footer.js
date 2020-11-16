@@ -3,12 +3,9 @@ import './Footer.css';
 
 function Footer () {
     return (
-        <footer className="footer">
-            <div className="footer__sentence">
-                <h3>Un projet ? Une question ? N'hésitez pas à <a href="/">me contacter</a></h3>
-            </div>
+        <footer className="footer">     
             <div className="footer__banner">
-                <div className="footer__copyright">nicolasdiot.com | Copyright © 2020 | <a href="/">Mentions Légales</a></div>
+                <div className="footer__copyright">nicolasdiot.com | Copyright © 2020 | <a href="/mentionslegales">Mentions Légales</a></div>
                 <div className="footer__info">
                     <div className="footer__contact">
                         <h4 className="header-underline">Contact</h4>

@@ -5,7 +5,7 @@ function APropos () {
     return (
         <>
             <div className="container-home">
-                <div id="nd">
+                <div className="nd">
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="header-top">
@@ -111,6 +111,9 @@ function APropos () {
                     </div>
                 </div>
             </section>
+            <div className="footer-sentence">
+                <h3>Un projet ? Une question ? N'hésitez pas à <a href="/contact">me contacter</a></h3>
+            </div>
         </>
     )
 }
