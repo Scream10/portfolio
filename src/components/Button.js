@@ -3,7 +3,7 @@ import './Button.css';
 
 function Button () {
     return (
-        <a href="/" className="btn btn-discover">
+        <a href="/portfolio" className="btn btn-discover">
             Portfolio
         </a>
     )

@@ -36,8 +36,9 @@ a.btn {
 
 .arrow--white {
     position: relative;
-    top: -57%;
-    left: 220px;
+    width: calc(100% - 420px);
+    top: -53%;
+    left: 420px;
     font-size: 2rem;
     color: var(--white);
     transform: rotate(0deg);

@@ -52,8 +52,10 @@ function Accueil () {
                     </p>
                 </div>
                 <div id="services-banner">
-                    <h3>Découvrir les services</h3>
-                    <span className="arrow arrow--white"></span>
+                    <a href="/services">
+                        <h3>Découvrir les services</h3>
+                        <span className="arrow arrow--white"></span>
+                    </a>
                 </div>
                 <div id="realisation" className="container-text container-text__right">
                     <h2>Réalisations</h2>
