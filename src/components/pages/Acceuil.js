@@ -3,6 +3,19 @@ import '../../App.css';
 import PortfolioList from '../PortfolioList';
 
 function Accueil () {
+
+    let mouseCursor = document.querySelector(".cursor");
+    let backgroundBlack = document.querySelectorAll(".background-black");
+  
+    backgroundBlack.forEach(bg => {
+      bg.addEventListener("mouseleave", () => {
+        mouseCursor.classList.remove("cursor-white");
+      });
+      bg.addEventListener("mouseover", () => {
+        mouseCursor.classList.add("cursor-white");
+      });
+    });
+
     return (
         <>
             <div className="container-home">

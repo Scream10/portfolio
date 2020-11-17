@@ -70,7 +70,7 @@ function Services () {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="service__info service__info--black">
+                    <div className="service__info service__info--black background-black">
                         <h3>Maintenance</h3>
                     </div>
                     <div className="service__img">

@@ -59,7 +59,7 @@ p {
 }
 
 .cursor-white {
-  background-color: var(--white) !important;
+  background-color: var(--white);
 }
 
 .nd {

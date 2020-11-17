@@ -23,7 +23,7 @@ function Menu () {
                         </Link>
                     </div>
                     <div className="menu__section">
-                        <Link to="/services" className="menu__info" onClick={closeMenu}>
+                        <Link to="/services" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">Services</h3>
                             <div className="menu__text-container">
                                 <p href="/" className="menu__text">Site Web</p>
@@ -33,7 +33,7 @@ function Menu () {
                         </Link>
                     </div>
                     <div className="menu__section">
-                        <Link to="/portfolio" className="menu__info" onClick={closeMenu}>
+                        <Link to="/portfolio" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">Portfolio</h3>
                             <div className="menu__text-container">
                                 <p href="/" className="menu__text">Ombeline Durey</p>
@@ -43,17 +43,17 @@ function Menu () {
                         </Link>
                     </div>
                     <div className="menu__section">
-                        <Link to="/apropos" className="menu__info" onClick={closeMenu}>
+                        <Link to="/apropos" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">À propos</h3>
                         </Link>
                     </div>
                     <div className="menu__section">
-                        <Link to="/contact" className="menu__info" onClick={closeMenu}>
+                        <Link to="/contact" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">Contact</h3>
                         </Link>
                     </div>
                     <div className="menu__section">
-                        <div className="menu__info">
+                        <div className="menu__info background-black">
                             {/* <a href="/" className="hamburger hamburger--closed">Contenttochange</a> */}
                             <p className="menu__menu">Menu</p>
                         </div>

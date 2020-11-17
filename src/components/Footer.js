@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer () {
     return (
-        <footer className="footer">     
+        <footer className="footer background-black">     
             <div className="footer__banner">
                 <div className="footer__copyright">nicolasdiot.com | Copyright © 2020 | <a href="/mentionslegales">Mentions Légales</a></div>
                 <div className="footer__info">
