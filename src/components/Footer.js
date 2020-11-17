@@ -14,8 +14,8 @@ function Footer () {
                     </div>
                     <div className="footer__social">
                         <h4 className="header-underline header-underline--social">Social</h4>
-                        <i class="fab fa-github-square fa-2x"></i>
-                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i className="fab fa-github-square fa-2x"></i>
+                        <i className="fab fa-linkedin fa-2x"></i>
                     </div>
                 </div>
             </div>

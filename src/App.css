@@ -44,7 +44,7 @@ p {
   color: var(--text);
 }
 
-#cursor {
+.cursor {
   width: .8em;
   height: .8rem;
   background-color: var(--header);
@@ -56,6 +56,10 @@ p {
   transition-property: background, transform;
   transform-origin: 100% 100%;
   z-index: 10000;
+}
+
+.cursor-white {
+  background-color: var(--white) !important;
 }
 
 .nd {

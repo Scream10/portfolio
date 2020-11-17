@@ -4,8 +4,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999;
+    transition: all 0.5s ease;
+    z-index: -100;
     background-color: var(--header);
+}
+
+.menu-wrapper.active {
+    left: 0;
+    z-index: 9000;
+    transition: all 0.5s ease;
 }
 
 .menu {
@@ -92,4 +99,42 @@
     bottom: 0;
     height: 50vh;
     text-align: center;
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    top: 50px;
+}
+
+.hamburger--closed {
+    height: 30px;
+    background-color: var(--white);
+}
+
+.hamburger .line {
+    height: 2px;
+    background-color: var(--header);
+    position: absolute;
+}
+
+.l-1 {
+    width: 30px;
+}
+
+.l-2 {
+    top: 10px;
+    width: 20px;
+    right: 0;
+}
+
+.fa-times {
+    color: var(--white);
+}
+
+.fa-bars {
+    color: var(--header);
 }

@@ -51,7 +51,7 @@ function Accueil () {
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div id="services-banner">
+                <div id="services-banner" className="background-black">
                     <a href="/services">
                         <h3>Découvrir les services</h3>
                         <span className="arrow arrow--white"></span>

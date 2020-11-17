@@ -11,7 +11,6 @@ import APropos from './components/pages/APropos';
 import Contact from './components/pages/Contact';
 import MentionsLegales from './components/pages/MentionsLegales';
 import Grid from './components/Grid';
-import Hamburger from './components/Hamburger';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
 
@@ -19,7 +18,7 @@ function App() {
   return (
     <Router>
       <Grid />
-      <Hamburger />
+      <Menu />
       <Switch>
         <Route path='/' exact component={Accueil} />
         <Route path='/services' component={Services} />
