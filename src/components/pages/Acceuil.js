@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../App.css';
 import PortfolioList from '../PortfolioList';
+import gsap from 'gsap';
 
 function Accueil () {
 
@@ -16,6 +17,36 @@ function Accueil () {
       });
     });
 
+    useEffect(() => {
+        //timeline
+        const tl = gsap.timeline();
+
+        tl.from('.home-banner__img', 1, {
+            opacity: 0,
+            y: 130,
+            ease: 'power2.easeIn',
+        })
+
+        .from('.home-banner__text', .8, {
+            opacity: 0,
+            x: 80,
+            ease: 'power1.easeIn',
+        })
+
+        .from('.container-text--left', 1, {
+            opacity: 0,
+            x: 100,
+            ease: 'power1.easeIn'
+        })
+
+        .from('.container-text--middle', 1, {
+            opacity: 0,
+            x: -100,
+            ease: 'power1.easeIn'
+        })
+
+    }, []);
+    
     return (
         <>
             <div className="container-home">
@@ -36,12 +67,8 @@ function Accueil () {
                 </div>
                 <div className="container-text container-text--left">
                     <h2>Esthétique</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>En tant que développeur front-end, je porte un intérêt prononcé pour l'esthétique
+                    et l'unviers graphique de votre site. 
                     </p>
                 </div>
                 <div className="container-text container-text--middle">
@@ -63,7 +90,7 @@ function Accueil () {
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                </div>
+                </div>        
                 <div id="services-banner" className="background-black">
                     <a href="/services">
                         <h3>Découvrir les services</h3>

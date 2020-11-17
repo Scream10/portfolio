@@ -29,13 +29,13 @@ function AcStudio () {
                     <div className="projet-information__content">
                         <h3>Site</h3>
                         <a href="https://ac-studio.vercel.app/" target="_blank" rel="noreferrer">
-                            <i class="fas fa-globe fa-2x"></i>
+                            <i className="fas fa-globe fa-2x"></i>
                         </a>
                     </div>
                     <div className="projet-information__content">
                         <h3>Code Source</h3>
                         <a href="https://github.com/Scream10" target="_blank" rel="noreferrer">
-                            <i class="fas fa-code fa-2x"></i>
+                            <i className="fas fa-code fa-2x"></i>
                         </a>
                     </div>  
                 </div>
