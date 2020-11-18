@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../../App.css';
 import PortfolioList from '../PortfolioList';
-import gsap from 'gsap';
 
 function Accueil () {
 
+    // MOUSE EFFECT
     let mouseCursor = document.querySelector(".cursor");
     let backgroundBlack = document.querySelectorAll(".background-black");
   
@@ -16,36 +16,6 @@ function Accueil () {
         mouseCursor.classList.add("cursor-white");
       });
     });
-
-    useEffect(() => {
-        //timeline
-        const tl = gsap.timeline();
-
-        tl.from('.home-banner__img', 1, {
-            opacity: 0,
-            y: 130,
-            ease: 'power2.easeIn',
-        })
-
-        .from('.home-banner__text', .8, {
-            opacity: 0,
-            x: 80,
-            ease: 'power1.easeIn',
-        })
-
-        .from('.container-text--left', 1, {
-            opacity: 0,
-            x: 100,
-            ease: 'power1.easeIn'
-        })
-
-        .from('.container-text--middle', 1, {
-            opacity: 0,
-            x: -100,
-            ease: 'power1.easeIn'
-        })
-
-    }, []);
     
     return (
         <>
@@ -68,7 +38,7 @@ function Accueil () {
                 <div className="container-text container-text--left">
                     <h2>Esthétique</h2>
                     <p>En tant que développeur front-end, je porte un intérêt prononcé pour l'esthétique
-                    et l'unviers graphique de votre site. 
+                    et l'unviers graphique de votre site. Chaque site internet est unique
                     </p>
                 </div>
                 <div className="container-text container-text--middle">

@@ -21,9 +21,9 @@ function APropos () {
                     Project et Le Wagon où j'ai obtenu une certification Bac +3 en développement web. Rapidement 
                     j'ai consolidé mes compétences front-end en apprenant quotidiennement de nouveaux outils tels
                     que React, Sass, BEM, GSAP, TweenMax, TimeLine, ScrollMagic, et d'autres. 
-                    <br/><br/>Je serais ravie de développer de nouveau projet, n'hésitez pas à me contacter pour me 
+                    <br/><br/>Je serais ravi de développer de nouveaux projets, n'hésitez pas à me contacter pour me 
                     faire part de vos idées. Je travaille également en collaboration avec une graphiste qui pourra 
-                    réalisé vos logos et identités visuelles.
+                    réaliser vos logos et identités visuelles.
                     </p>                
                 </div>
             </div>
