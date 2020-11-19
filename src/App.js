@@ -10,6 +10,7 @@ import AcStudio from './components/pages/AcStudio';
 import APropos from './components/pages/APropos';
 import Contact from './components/pages/Contact';
 import MentionsLegales from './components/pages/MentionsLegales';
+import NotFound from './components/pages/NotFound';
 import Grid from './components/Grid';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/apropos' component={APropos} />
         <Route path='/contact' component={Contact} />
         <Route path='/mentionslegales' component={MentionsLegales} />
+        <Route path='*' component={NotFound} />
       </Switch>
       <Footer />
     </Router>
