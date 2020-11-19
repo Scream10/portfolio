@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Accueil from './components/pages/Acceuil';
+import Accueil from './components/pages/Accueil';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
 import OmbelineDurey from './components/pages/OmbelineDurey';

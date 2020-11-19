@@ -19,7 +19,7 @@ function Menu () {
                 <div className="menu">
                     <div className="menu__section">
                         <Link to="/" className="menu__info background-black" onClick={closeMenu}>
-                            <h3 className="menu__title">Acceuil</h3>
+                            <h3 className="menu__title">Accueil</h3>
                         </Link>
                     </div>
                     <div className="menu__section">
