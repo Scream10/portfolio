@@ -1,4 +1,4 @@
-# Portfolio | Nicolas Diot - © Copyright 2020
+# Portfolio | Nicolas Diot
 
 Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 
@@ -6,6 +6,7 @@ Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 
 * ReactJS
 * Sass
+* BEM
 * GSAP
 * ScrollMagic
 * HTML / CSS
@@ -23,3 +24,6 @@ Ou
 * yarn install
 * yarn start
 * Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
+
+
+© Copyright 2020 - nicolasdiot.com

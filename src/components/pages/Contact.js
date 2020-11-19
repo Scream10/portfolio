@@ -24,7 +24,7 @@ function Contact () {
                         <div className="contact-info__content">
                             <p>Horaires</p>
                             <div>
-                                <h4>lundi à vendredi : 9h - 19h</h4>
+                                <h4>lun à ven : 9h - 19h</h4>
                                 <h4>samedi : 9h - 12h</h4>
                             </div>
                         </div>
