@@ -23,21 +23,16 @@ function Services () {
                     <div className="service__description">
                         <div className="service__description-content">
                             <h3>Site WordPress</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>40% des sites dans le monde son créer sous WordPress. En effet, WordPress apporte
+                            plein davantages, notamment une interface client qui vous permet de gérer
+                            votre site internet par vous-même. Vous pourrez également choisir parmis différent
+                            templates, l'interface graphique qui vous préférez pour votre futur site web.
+                            </p>
                         </div>
                         <div className="service__description-content service__description-content--right">
                             <h3>Site personnalisé</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Il est tout à fait possible de créer un site web sur-mesure.
+                            </p>
                         </div>
                     </div>
                 </div>

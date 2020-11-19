@@ -43,12 +43,10 @@ function AcStudio () {
                     <img src={process.env.PUBLIC_URL + "img/projet-test.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
                         <h3>Résumer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>AC Studio est le portfolio d'Antoine Chauvin, un designer d'objets et d'espaces situé
+                        à Paris. Le site a été pensé comment étant une galerie où l'on parcours les différents 
+                        projets qu'Antoine réalisent depuis plusieurs années.
+                        </p>
                     </div>
                 </div>
                 <div className="projet-concept projet-concept--center">
@@ -58,12 +56,10 @@ function AcStudio () {
                 <div className="projet-concept">
                     <div className="projet-concept__text projet-concept__text--left">
                         <h3>Version mobile</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Le site est responsive design, c'est à dire qu'il s'adapte à tous les écrans,
+                        ordinateur, tablette et téléphone. Où que vous soyez, continuez à suivre les créations
+                        en design d'objets et d'espaces d'Antoine sur ac-studio.eu.
+                        </p>
                     </div>
                     <img src={process.env.PUBLIC_URL + "img/iphone-mockup.png"} className="projet-concept__iphone-mockup" alt="MacBook Pro Mockup"/>
                 </div>
