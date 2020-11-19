@@ -43,6 +43,11 @@
     color: var(--white);
 }
 
+.footer__contact a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .footer__contact p {
     margin-bottom: 6px;
 }
