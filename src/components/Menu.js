@@ -26,9 +26,9 @@ function Menu () {
                         <Link to="/services" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">Services</h3>
                             <div className="menu__text-container">
-                                <p href="/" className="menu__text">Site Web</p>
-                                <p href="/" className="menu__text">Site E-commerce</p>
-                                <p href="/" className="menu__text">Maintenance</p>
+                                <p className="menu__text">Site Web</p>
+                                <p className="menu__text">Site E-commerce</p>
+                                <p className="menu__text">Maintenance</p>
                             </div>
                         </Link>
                     </div>
@@ -36,15 +36,19 @@ function Menu () {
                         <Link to="/portfolio" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">Portfolio</h3>
                             <div className="menu__text-container">
-                                <p href="/" className="menu__text">Ombeline Durey</p>
-                                <p href="/" className="menu__text">AC Studio</p>
-                                <p href="/" className="menu__text">CoachMe</p>
+                                <p className="menu__text">Ombeline Durey</p>
+                                <p className="menu__text">AC Studio</p>
+                                <p className="menu__text">CoachMe</p>
                             </div>
                         </Link>
                     </div>
                     <div className="menu__section">
                         <Link to="/apropos" className="menu__info background-black" onClick={closeMenu}>
                             <h3 className="menu__title">À propos</h3>
+                            <div className="menu__text-container">
+                                <p className="menu__text">Présentation</p>
+                                <p className="menu__text">Méthode de travail</p>
+                            </div>
                         </Link>
                     </div>
                     <div className="menu__section">

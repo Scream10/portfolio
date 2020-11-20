@@ -48,6 +48,7 @@ p {
   width: .8em;
   height: .8rem;
   background-color: var(--header);
+  border: 1px solid var(--white);
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -256,7 +257,7 @@ p {
 
 .service__description-content {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .service__description-content--right {
