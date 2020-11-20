@@ -13,7 +13,7 @@ function APropos () {
                 </div>
             </div>
             <div className="apropos">
-                <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                <img src={process.env.PUBLIC_URL + "img/nicolas.jpg"} alt="Photo Nicolas Diot"/>
                 <div className="container-text">
                     <h3>Nicolas Diot</h3>
                     <h4>Développeur front-end</h4>

@@ -38,27 +38,25 @@ function Accueil () {
                 <div className="container-text container-text--left">
                     <h2>Esthétique</h2>
                     <p>En tant que développeur front-end, je porte un intérêt prononcé pour l'esthétique
-                    et l'unviers graphique de votre site. Chaque site internet est unique
+                    et l'unviers graphique de votre site. Chaque site internet est unique, c'est pourquoi
+                    vous pourrez choisir entre un template WordPress ou une charte graphique personnalisé
+                    à votre image. Pour tous conseils esthétiques, je vous ferais part de mon expérience
+                    en UI et UX Design. 
                     </p>
                 </div>
                 <div className="container-text container-text--middle">
                     <h2>Performant</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>La performance d'un site est crucial, c'est pourquoi j'optimiserais son fonctionnement
+                    avec des plugins comme WP Rocket si vous choisissez un site WordPress. Pour un site 
+                    personnalisé, la structure du code respectera les normes W3C pour un meilleur référencement,
+                    et chaque image sera compressée sans perte de qualité, pour un chargement plus rapide de
+                    votre site. 
                     </p>
                 </div>
                 <div className="container-text container-text--left">
                     <h2>Responsive Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>Tous les sites que je développe sont responsive design, c'est à dire qu'ils s'adaptent
+                    à tous support, que ce soit sur un ordinateur, une tablette ou un téléphone.
                     </p>
                 </div>        
                 <div id="services-banner" className="background-black">

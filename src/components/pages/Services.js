@@ -18,7 +18,7 @@ function Services () {
                         <Button />
                     </div>
                     <div className="service__img">
-                        <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Test"/>
+                        <img src={process.env.PUBLIC_URL + "img/mac-1.jpg"} alt="Test" className="grayfilter"/>
                     </div>
                     <div className="service__description">
                         <div className="service__description-content">
@@ -47,7 +47,7 @@ function Services () {
                         <h3>Site e-commerce Woocommerce</h3>
                     </div>
                     <div className="service__img--right">
-                        <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Test"/>
+                        <img src={process.env.PUBLIC_URL + "img/mac-2.jpg"} alt="Test" className="grayfilter"/>
                     </div>
                     <div className="service__description service__description--orange">
                         <div className="service__description-content">
@@ -76,7 +76,7 @@ function Services () {
                         <h3>Maintenance</h3>
                     </div>
                     <div className="service__img">
-                        <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Test"/>
+                        <img src={process.env.PUBLIC_URL + "img/mac-3.jpg"} alt="Test" className="grayfilter"/>
                     </div>
                     <div className="service__description service__description--black">
                         <div className="service__description-content">

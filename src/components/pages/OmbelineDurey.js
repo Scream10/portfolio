@@ -9,7 +9,7 @@ function OmbelineDurey () {
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="projet-banner">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} alt="Projet Ombeline Durey"/>
+                    <img src={process.env.PUBLIC_URL + "img/ombelinedurey.jpg"} alt="Projet Ombeline Durey"/>
                     <h2>Ombeline Durey</h2>
                 </div>
                 <div className="projet-information">
@@ -54,8 +54,8 @@ function OmbelineDurey () {
                     </div>
                 </div>
                 <div className="projet-concept projet-concept--center">
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img projet-concept__img--left" alt="MacBook Pro Mockup"/>
-                    <img src={process.env.PUBLIC_URL + "img/test.jpg"} className="projet-concept__img projet-concept__img--right" alt="MacBook Pro Mockup"/>
+                    <img src={process.env.PUBLIC_URL + "img/ombelinedurey.jpg"} className="projet-concept__img projet-concept__img--left" alt="MacBook Pro Mockup"/>
+                    <img src={process.env.PUBLIC_URL + "img/ombelinedurey-2.png"} className="projet-concept__img projet-concept__img--right" alt="MacBook Pro Mockup"/>
                 </div>
                 <div className="projet-concept">
                     <div className="projet-concept__text projet-concept__text--left">

@@ -493,3 +493,7 @@ p {
   font-family: 'DIN Alternate', sans-serif;
   margin-top: 50px;
 }
+
+.grayfilter {
+  filter: grayscale();
+}
