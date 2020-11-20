@@ -15,6 +15,12 @@
     max-height: 800px;
 }
 
+@media screen and (max-width: 1100px) {
+    .portfolio__img img {
+        scale: .8;
+    }
+}
+
 .portfolio__project--right {
     left: 10%;
     top: 400px;
@@ -23,7 +29,6 @@
 .portfolio__img {
     position: relative;
     margin: 20px;
-    max-width: 390px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
 }
 
@@ -31,10 +36,6 @@
     width: 350px;
     height: 530px;
     object-fit: cover;
-}
-
-.portfolio__img--left {
-    left: 0;
 }
 
 .portfolio__number {

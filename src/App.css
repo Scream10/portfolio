@@ -66,8 +66,7 @@ p {
 .nd {
   position: relative;
   top: 50px;
-  width: 10%;
-  margin: 0 auto;
+  text-align: center;
   background-color: transparent;
 }
 
@@ -96,6 +95,56 @@ p {
   max-width: 46%;
 }
 
+@media screen and (max-width: 1250px) {
+  .home-banner__text {
+    right: 5%;
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .home-banner__text {
+    right: 5%;
+    max-width: 35%;
+  }
+
+  .home-banner__text h1 {
+    font-size: 48px;
+  }
+  
+  .home-banner__img img {
+    height: 490px;
+  }
+}  
+
+@media screen and (max-width: 768px) {
+  .home-banner__img img {
+    height: 390px;
+  }
+}  
+
+@media screen and (max-width: 425px) {
+  .home-banner__img img {
+    height: 290px;
+  }
+
+  .home-banner__text h1 {
+    font-size: 36px;
+  }
+
+  .home-banner__text {
+    right: -30%;
+    max-width: 38%;
+  }
+}  
+
+@media screen and (max-width: 360px) {
+  .home-banner__text {
+    right: -50%;
+    max-width: 38%;
+  }
+}  
+
 .w-full {
   width: 100%;
 }
@@ -111,6 +160,10 @@ p {
   margin: 0 auto;
 }
 
+.container-wrapper {
+  width: 100%;
+}
+
 .container-text {
   position: relative;
   width: 100%;
@@ -124,6 +177,23 @@ p {
 
 .container-text--middle {
   left: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-text--middle {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-wrapper {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+
+  .container-text--middle {
+    left: 16.8%;
+  }
 }
 
 .container-text--right {
@@ -162,8 +232,24 @@ p {
   line-height: 150px;
 }
 
+@media screen and (max-width: 768px) {
+  #services-banner h3 {
+    font-size: 32px;
+  }
+}
+
 #realisation {
   margin: 60px 0;
+}
+
+@media screen and (max-width: 768px) {
+  #realisation h2 {
+    font-size: 32px;
+  }
+
+  #realisation h2::before {
+    width: 50px !important;
+  }
 }
 
 #realisation h2::before {
