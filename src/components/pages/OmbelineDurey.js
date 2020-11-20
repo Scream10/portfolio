@@ -41,7 +41,7 @@ function OmbelineDurey () {
                     </div>  
                 </div>
                 <div className="projet-concept">
-                    <img src={process.env.PUBLIC_URL + "img/projet-test.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
+                    <img src={process.env.PUBLIC_URL + "img/mockup-mac-ombeline.jpg"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
                         <h3>Résumer</h3>
                         <p>Pour répondre aux besoins d'une cliente en digital marketing, j'ai développé

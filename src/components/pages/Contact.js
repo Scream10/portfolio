@@ -32,7 +32,6 @@ function Contact () {
                     <div className="contact-text">
                         <p>Vous avez une question ? Un projet ? Ou bien une demande de devis ?</p>
                         <p>N’hésitez pas à me contacter par mail, je vous répondrais sous 24h.
-                        Vous pouvez également m'appeler par téléphone selon les horaires indiquées.
                         </p>
                     </div>
                 </div>

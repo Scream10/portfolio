@@ -207,6 +207,9 @@ p {
 }
 
 .service__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   left: 200px;
   top: 50px;
@@ -222,6 +225,9 @@ p {
 }
 
 .service__info--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   right: 100px;
   top: 50px;
@@ -496,4 +502,11 @@ p {
 
 .grayfilter {
   filter: grayscale();
+}
+
+#pos-btn-portoflio {
+  position: absolute;
+  height: 43px;
+  bottom: 0;
+  right: 19px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Button from '../Button';
+import { Button } from '../Button';
 
 function Services () {
     return (
@@ -15,7 +15,9 @@ function Services () {
                 <div className="service">
                     <div className="service__info">
                         <h3>Site WordPress et personnalisé</h3>
-                        <Button />
+                        <Button to= '/services' className='btn' buttonStyle='btn--outline'>
+                            Découvrir
+                        </Button>
                     </div>
                     <div className="service__img">
                         <img src={process.env.PUBLIC_URL + "img/mac-1.jpg"} alt="Test" className="grayfilter"/>
@@ -45,6 +47,9 @@ function Services () {
                 <div className="service">
                     <div className="service__info--right">
                         <h3>Site e-commerce Woocommerce</h3>
+                        <Button to= '/services' className='btn' buttonStyle='btn--outline'>
+                            Découvrir
+                        </Button>
                     </div>
                     <div className="service__img--right">
                         <img src={process.env.PUBLIC_URL + "img/mac-2.jpg"} alt="Test" className="grayfilter"/>
@@ -74,6 +79,9 @@ function Services () {
                 <div className="service">
                     <div className="service__info service__info--black background-black">
                         <h3>Maintenance</h3>
+                        <Button to= '/services' className='btn' buttonStyle='btn--outline'>
+                            Découvrir
+                        </Button>
                     </div>
                     <div className="service__img">
                         <img src={process.env.PUBLIC_URL + "img/mac-3.jpg"} alt="Test" className="grayfilter"/>

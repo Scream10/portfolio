@@ -1,6 +1,6 @@
 import React from 'react';
 import './PortfolioList.css';
-import Button from './Button';
+import { Button } from './Button';
 
 function PortfolioList () {
     return (
@@ -31,7 +31,11 @@ function PortfolioList () {
                     <h3>AC Studio</h3>    
                 </div>    
             </div>
-            <Button />
+            <div id="pos-btn-portoflio">
+                <Button to= '/portfolio' className='btn' buttonStyle='btn--primary'>
+                    Portfolio
+                </Button>
+            </div>
         </div>
     )
 } 

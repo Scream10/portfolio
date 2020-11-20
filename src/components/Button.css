@@ -2,10 +2,10 @@
     padding: 12px 24px;
     background-color: var(--header);
     color: var(--white);
-    transition: .3s ease-out;
+    transition: .3s ease-in-out;
 }
 
-a.btn {
+a.btn, button.btn {
     text-decoration: none;
     font-family: 'DIN Alternate', sans-serif;
     letter-spacing: .5px;
@@ -48,15 +48,12 @@ a.btn {
     content: '\279D';
 }
 
-.btn-discover {
+.btn--primary {
     border: 1px solid var(--header);
-    position: relative;
-    top: 1090px;
-    right: 8.7%;
     max-height: 43px;
 }
 
-.btn-discover::after {
+.btn--primary::after, .btn--outline::after {
     line-height: 1;
     font-size: 1rem;
     margin-left: 1rem;
@@ -64,6 +61,20 @@ a.btn {
     color: var(--white);
 } 
 
-.btn-discover:hover {
-    margin-left: 12px;
+.btn--primary:hover {
+    color: var(--header);
+    background-color: var(--white);
+}
+
+.btn--primary:hover::after {
+    color: var(--header);
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+
+.btn--primary:focus, .btn--outline:focus {
+    outline: none;
 }
