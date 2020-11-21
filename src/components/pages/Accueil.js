@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import '../../App.css';
 import PortfolioList from '../PortfolioList';
+import {TweenMax, Power3} from 'gsap';
 
 function Accueil () {
 
@@ -16,7 +17,21 @@ function Accueil () {
         mouseCursor.classList.add("cursor-white");
       });
     });
-    
+
+    //ANIMATION TEST
+    let homeText = useRef(null);
+    useEffect(() => {
+        TweenMax.to(
+            homeText,
+            1,
+            {
+                opacity: 1,
+                x: 40,
+                ease: Power3.easeInOut
+            }
+        )
+    }, [])
+
     return (
         <>
             <div className="container-home">
@@ -27,7 +42,7 @@ function Accueil () {
                     <div className="home-banner__img">
                         <img src={process.env.PUBLIC_URL + "img/mac-setup.jpg"} alt="Mac setup"/>
                     </div>
-                    <div className="home-banner__text">
+                    <div ref={el => {homeText = el}} className="home-banner__text">
                         <h1>Ensemble développons votre site internet</h1>
                     </div>
                 </div>

@@ -93,6 +93,7 @@ p {
   right: 4%;
   top: 29%;
   max-width: 46%;
+  opacity: 0;
 }
 
 @media screen and (max-width: 1250px) {
