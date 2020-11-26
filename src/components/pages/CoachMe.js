@@ -41,7 +41,7 @@ function CoachMe () {
                     </div>  
                 </div>
                 <div className="projet-concept">
-                    <img src={process.env.PUBLIC_URL + "img/projet-test.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
+                    <img src={process.env.PUBLIC_URL + "img/projet-coachme.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
                         <h3>Résumer</h3>
                         <p>CoachMe représente l'exercice final que nous devions créer à la fin de la formation en 
