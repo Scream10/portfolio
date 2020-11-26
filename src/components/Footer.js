@@ -14,8 +14,10 @@ function Footer () {
                     </div>
                     <div className="footer__social">
                         <h4 className="header-underline header-underline--social">Social</h4>
-                        <a href="https://github.com/Scream10" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/in/nicolas-diot-96b0b313a/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
+                        <div className="footer__link">
+                            <a href="https://github.com/Scream10" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/nicolas-diot-96b0b313a/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
