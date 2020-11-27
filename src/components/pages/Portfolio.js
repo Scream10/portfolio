@@ -20,6 +20,7 @@ function Portfolio () {
                         <div className="portfolio__img">
                             <a href="/ombelinedurey">
                                 <img src={process.env.PUBLIC_URL + "img/ombelinedurey.jpg"} alt="Projet Ombeline Durey"/>
+                                <span className="portfolio__overlay"></span>
                             </a>
                         </div>
                         <div className="portfolio__title">
@@ -33,6 +34,7 @@ function Portfolio () {
                         <div className="portfolio__img">
                             <a href="/acstudio">
                                 <img src={process.env.PUBLIC_URL + "img/ac-studio-1.png"} alt="Projet AC Studio"/>
+                                <span className="portfolio__overlay"></span>
                             </a>
                         </div>
                         <div className="portfolio__title">
@@ -48,6 +50,7 @@ function Portfolio () {
                         <div className="portfolio__img">
                             <a href="/coachme">
                                 <img src={process.env.PUBLIC_URL + "img/coachme-1.png"} alt="Projet CoachMe"/>
+                                <span className="portfolio__overlay"></span>
                             </a>
                         </div>
                         <div className="portfolio__title">

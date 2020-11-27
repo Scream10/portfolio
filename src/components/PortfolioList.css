@@ -30,6 +30,11 @@
     position: relative;
     margin: 20px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+    z-index: 2;
+}
+
+.portfolio__img:hover .portfolio__overlay {
+    display: block;
 }
 
 .portfolio__img img {
@@ -37,6 +42,16 @@
     height: 530px;
     object-fit: cover;
 }
+
+.portfolio__overlay {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}  
 
 .portfolio__number {
     width: 390px;
@@ -55,6 +70,7 @@
     right: 52%;
     bottom: 245px;
     width: 390px;
+    z-index: 1;
 }
 
 .portfolio__title h3 {
