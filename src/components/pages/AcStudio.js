@@ -42,10 +42,10 @@ function AcStudio () {
                 <div className="projet-concept">
                     <img src={process.env.PUBLIC_URL + "img/projet-AC.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
-                        <h3>Résumer</h3>
+                        <h3>Résumé</h3>
                         <p>AC Studio est le portfolio d'Antoine Chauvin, un designer d'objets et d'espaces situé
                         à Paris. Le site a été pensé comment étant une galerie où l'on parcours les différents 
-                        projets qu'Antoine réalisent depuis plusieurs années.
+                        projets qu'Antoine réalise depuis plusieurs années.
                         </p>
                     </div>
                 </div>

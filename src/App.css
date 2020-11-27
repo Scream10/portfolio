@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  cursor: none;
 }
 
 :root {
@@ -42,25 +41,6 @@ p {
   line-height: 1.5rem;
   font-size: 16px;
   color: var(--text);
-}
-
-.cursor {
-  width: .8em;
-  height: .8rem;
-  background-color: var(--header);
-  border: 1px solid var(--white);
-  border-radius: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: all 0.3s ease;
-  transition-property: background, transform;
-  transform-origin: 100% 100%;
-  z-index: 10000;
-}
-
-.cursor-white {
-  background-color: var(--white);
 }
 
 .nd {

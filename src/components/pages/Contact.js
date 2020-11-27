@@ -31,7 +31,7 @@ function Contact () {
                     </div>
                     <div className="contact-text">
                         <p>Vous avez une question ? Un projet ? Ou bien une demande de devis ?</p>
-                        <p>N’hésitez pas à me contacter par mail, je vous répondrais sous 24h.
+                        <p>N’hésitez pas à me contacter. Je réponds aux mails sous 24h.
                         </p>
                     </div>
                 </div>

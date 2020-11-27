@@ -43,7 +43,7 @@ function CoachMe () {
                 <div className="projet-concept">
                     <img src={process.env.PUBLIC_URL + "img/projet-coachme.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
-                        <h3>Résumer</h3>
+                        <h3>Résumé</h3>
                         <p>CoachMe représente l'exercice final que nous devions créer à la fin de la formation en 
                         développement web à THP, The Hacking Project. Avec 4 autres apprentis développeurs, nous 
                         avons créé le site CoachMe sur lequel j'étais responsable de la partie front-end.

@@ -5,19 +5,6 @@ import {TweenMax, Power3} from 'gsap';
 
 function Accueil () {
 
-    // MOUSE EFFECT
-    let mouseCursor = document.querySelector(".cursor");
-    let backgroundBlack = document.querySelectorAll(".background-black");
-  
-    backgroundBlack.forEach(bg => {
-      bg.addEventListener("mouseleave", () => {
-        mouseCursor.classList.remove("cursor-white");
-      });
-      bg.addEventListener("mouseover", () => {
-        mouseCursor.classList.add("cursor-white");
-      });
-    });
-
     //ANIMATION TEST
     let homeText = useRef(null);
     useEffect(() => {
@@ -30,7 +17,7 @@ function Accueil () {
                 ease: Power3.easeInOut
             }
         )
-    }, [])
+    }, []);
 
     return (
         <>
@@ -54,7 +41,7 @@ function Accueil () {
                     <div className="container-text container-text--left">
                         <h2>Esthétique</h2>
                         <p>En tant que développeur front-end, je porte un intérêt prononcé pour l'esthétique
-                        et l'unviers graphique de votre site. Chaque site internet est unique, c'est pourquoi
+                        et l'univers graphique de votre site. Chaque site internet est unique, c'est pourquoi
                         vous pourrez choisir entre un template WordPress ou une charte graphique personnalisé
                         à votre image. Pour tous conseils esthétiques, je vous ferais part de mon expérience
                         en UI et UX Design. 
@@ -72,7 +59,7 @@ function Accueil () {
                     <div className="container-text container-text--left">
                         <h2>Responsive Design</h2>
                         <p>Tous les sites que je développe sont responsive design, c'est à dire qu'ils s'adaptent
-                        à tous support, que ce soit sur un ordinateur, une tablette ou un téléphone.
+                        à tous support : un ordinateur, une tablette ou un téléphone.
                         </p>
                     </div>  
                 </div>

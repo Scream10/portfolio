@@ -25,21 +25,21 @@ function Services () {
                     <div className="service__description">
                         <div className="service__description-content">
                             <h3>Site WordPress</h3>
-                            <p>WordPress est un outil monidalement connu, 40% des sites dans le monde son créer 
-                            sous WordPress. En effet, il apporte plein davantages, notamment une interface client
+                            <p>WordPress est un outil mondialement connu, 40% des sites dans le monde sont créés 
+                            sous WordPress. En effet, il apporte pleins davantages, notamment une interface client
                             qui vous permet de gérer votre site internet par vous-même. Vous pourrez également 
-                            choisir parmis différent templates, l'interface graphique qui vous préférez pour 
+                            choisir parmi différents templates, l'interface graphique que vous préférez pour 
                             votre futur site web.
                             </p>
                         </div>
                         <div className="service__description-content service__description-content--right">
                             <h3>Site personnalisé</h3>
-                            <p>En choisissant cette option, vous bénéficierez d'une conception personnalisé ainsi
-                            qu'une charte graphique sur-mesure. Je réaliserais une maquette UI/UX avec Figma pour
-                            vous donnez un premier aperçu de votre site  avant de le développer. Je respecterais
+                            <p>En choisissant cette option, vous bénéficierez d'une conception personnalisée ainsi
+                            que d'une charte graphique sur-mesure. Je réaliserais une maquette UI/UX avec Figma pour
+                            vous donner un premier aperçu de votre site  avant de le développer. Je respecterais
                             une structure de code favorable aux normes W3C afin d'assurer un référencement naturel
                             optimisé. Tous les sites que je crée sont responsive design, ils s'adaptent à tous
-                            types d'écrans, ordinateur, tablette, mobile.
+                            types d'écrans : ordinateur, tablette, mobile.
                             </p>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function Services () {
                             <h3>Site e-commerce</h3>
                             <p>Woocommerce permet de créer des sites e-commerces et boutiques en ligne.
                             C'est l'une des meilleurs options pour créer et gérer efficacement votre commerce.
-                            Vous pourrez également choisir parmis de nombreux plugins pour répondre à vos 
+                            Vous pourrez également choisir parmi de nombreux plugins pour répondre à vos 
                             besoins, comme par exemple un plugin fournissant une option de vente en Click 
                             & Collect. La conception de votre boutique en ligne se fera en mobile first, car
                             aujourd'hui 40% des ventes en ligne se font sur mobile.
@@ -90,17 +90,17 @@ function Services () {
                         <div className="service__description-content">
                             <h3>Maintenance</h3>
                             <p>Je mettrais régulièrement à jour les différents outils et plugins qu'utilise le site afin d'assurer son
-                            bon fonctionnement au fil du temps. La maintenance contient aussi un nombre d'heure accorder à 
+                            bon fonctionnement au fil du temps. La maintenance contient aussi un nombre d'heures accordées à 
                             de petites modifications graphiques ou de contenu. D'autre part, la correction de léger problème qui
-                            pourrait apparaitre dans le futur sont compris dans le forfait de maintenance.
+                            pourrait apparaitre dans le futur est comprise dans le forfait de maintenance.
                             </p>
                         </div>
                         <div className="service__description-content service__description-content--right">
                             <h3>Forfait</h3>
                             <p>Deux options s'offrent à vous, un forfait annuel de 349€ (soit 29€ par mois). Ce forfait comprends
-                            3h par mois allouer à l'optimisation, la correction, ou la modification légère du contenu ou du
-                            graphique, apporter à votre site web. Dans le cas où vous ne prenez pas ce forfait, toutes modifications
-                            ou corrections s'élèvera à 30€/h. 
+                            2h par mois allouées à l'optimisation, la correction, ou la modification légère du contenu ou du
+                            graphique, apportée à votre site web si besoin. Dans le cas où vous ne prenez pas ce forfait, toutes 
+                            modifications ou corrections s'élèvera à 30€/h. 
                             </p>
                         </div>
                     </div>

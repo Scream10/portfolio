@@ -43,12 +43,12 @@ function OmbelineDurey () {
                 <div className="projet-concept">
                     <img src={process.env.PUBLIC_URL + "img/projet-ombelinedurey.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
-                        <h3>Résumer</h3>
+                        <h3>Résumé</h3>
                         <p>Pour répondre aux besoins d'une cliente en digital marketing, j'ai développé
                         son site vitrine en utilisant WordPress. Vos trouverez des réponses pour développer
                         votre activité en ligne et faire parler de vous grâce à ses campagnes publicitaires. 
-                        Le design est conçu avec à un template de WordPress, et la charte graphique du site 
-                        a été réalisé d'après les couleurs de son logo. Celui-ci a été créer par une graphiste
+                        Le design est conçu avec un template de WordPress, et la charte graphique du site 
+                        a été réalisée d'après les couleurs de son logo. Celui-ci a été créé par une graphiste
                         avec qui je collabore sur certains projets.
                         </p>
                     </div>
