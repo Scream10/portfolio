@@ -15,7 +15,7 @@ function MentionsLegales () {
                 <h3>Éditeur</h3>
                 <p>Nom : Nicolas Diot</p>
                 <p>Téléphone : +33 (0)6 35 39 08 49</p>
-                <p>Siège Social : 52 place Jean Jaurès, 10000 Troyes</p>
+                <p>Siège Social : Troyes</p>
                 <p>SIRET : 890 374 937 00013</p>
                 <p>Code APE : 6201Z</p>
             </div>
