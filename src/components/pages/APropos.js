@@ -53,8 +53,8 @@ function APropos () {
                     <div className="working-method__content">
                         <p>Avec les informations récoltées lors de notre échange, j'établis un
                         devis ainsi qu'un planning découpé en un ensemble de tâches. De votre côté, vous me
-                        présentrez votre cahier des charges. Je vous expliquerais mes méthodes de travail en
-                        détails, ainsi que les outils que j'utilise. Puis nous établirons ensemble l'univers 
+                        présentrez votre cahier des charges. Je vous explique mes méthodes de travail en
+                        détails, ainsi que les outils que j'utilise. Puis nous établissons ensemble l'univers 
                         graphique qui vous convient le mieux.
                         </p>
                         <p className="working-method__number">02</p>
@@ -84,10 +84,10 @@ function APropos () {
                     <div className="working-method__content">
                         <p>Démarrage du développement sous forme de sprint. J'intègre la structure du site d'après les
                         maquettes en respectant les règles du web W3C afin d'optimiser le référencement naturel, puis je 
-                        développe la partie front-end. Pour les sites avec une interface client, le back-end sera géré 
+                        développe la partie front-end. Pour les sites avec une interface client, le back-end est géré 
                         par un CMS tels que WordPress. Toutes les préstations sont réalisées en responsive design, c'est à
-                        dire que le site s'adapte à toutes tailles d'écrans, ordinateur, tablette, téléphone. Enfin je
-                        testerais les performances de chargement, puis je lancerais la mise en ligne de votre site internet.
+                        dire que le site s'adapte à toutes tailles d'écrans : ordinateur, tablette, téléphone. Enfin je
+                        teste les performances de chargement, puis je lance la mise en ligne de votre site internet.
                         </p>
                         <p className="working-method__number">04</p>
                     </div>
@@ -99,7 +99,7 @@ function APropos () {
                     </div>
                     <div className="working-method__content">
                         <p>Après quelques mois vous pouvez avoir envie de développer de nouvelles fonctionnalités, nous
-                        pouvons reprendre rendez-vous pour échanger sur vos idées. D'autre part, je mettrais régulièrement
+                        pouvons reprendre rendez-vous pour échanger sur vos idées. D'autre part, je mets régulièrement
                         à jour les différents outils qu'utilise le site, et je corrige les problèmes qui pourraient 
                         apparaitre dans le futur.
                         </p>

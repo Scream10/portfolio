@@ -34,9 +34,9 @@ function Services () {
                         </div>
                         <div className="service__description-content service__description-content--right">
                             <h3>Site personnalisé</h3>
-                            <p>En choisissant cette option, vous bénéficierez d'une conception personnalisée ainsi
-                            que d'une charte graphique sur-mesure. Je réaliserais une maquette UI/UX avec Figma pour
-                            vous donner un premier aperçu de votre site  avant de le développer. Je respecterais
+                            <p>En choisissant cette option, vous bénéficiez d'une conception personnalisée ainsi
+                            que d'une charte graphique sur-mesure. Je réalise une maquette UI/UX avec Figma pour
+                            vous donner un premier aperçu de votre site  avant de le développer. Et je respecte
                             une structure de code favorable aux normes W3C afin d'assurer un référencement naturel
                             optimisé. Tous les sites que je crée sont responsive design, ils s'adaptent à tous
                             types d'écrans : ordinateur, tablette, mobile.
@@ -59,9 +59,9 @@ function Services () {
                             <h3>Site e-commerce</h3>
                             <p>Woocommerce permet de créer des sites e-commerces et boutiques en ligne.
                             C'est l'une des meilleurs options pour créer et gérer efficacement votre commerce.
-                            Vous pourrez également choisir parmi de nombreux plugins pour répondre à vos 
+                            Vous pouvez également choisir parmi de nombreux plugins pour répondre à vos 
                             besoins, comme par exemple un plugin fournissant une option de vente en Click 
-                            & Collect. La conception de votre boutique en ligne se fera en mobile first, car
+                            & Collect. La conception de votre boutique en ligne se fait en mobile first, car
                             aujourd'hui 40% des ventes en ligne se font sur mobile.
                             </p>
                         </div>
@@ -69,8 +69,8 @@ function Services () {
                             <h3>Interface client</h3>
                             <p>Une interface client vous est dédiée pour gérer votre site e-commerce 
                             simplement. Cette interface vous donne accès à la gestion de votre boutique en
-                            ligne. Vous aurez une vue d'ensemble sur le fonctionnement de votre boutique, 
-                            la gestion du stock, et les statistiques de ventes. Bien sûr, je prendrais le 
+                            ligne. Vous avez ainsi une vue d'ensemble sur le fonctionnement de votre boutique, 
+                            la gestion du stock, et les statistiques de ventes. Bien sûr, je prends le 
                             temps de vous formez à l'utilisation du site.
                             </p>
                         </div>
@@ -89,7 +89,7 @@ function Services () {
                     <div className="service__description service__description--black">
                         <div className="service__description-content">
                             <h3>Maintenance</h3>
-                            <p>Je mettrais régulièrement à jour les différents outils et plugins qu'utilise le site afin d'assurer son
+                            <p>Je mets régulièrement à jour les différents outils et plugins qu'utilise le site afin d'assurer son
                             bon fonctionnement au fil du temps. La maintenance contient aussi un nombre d'heures accordées à 
                             de petites modifications graphiques ou de contenu. D'autre part, la correction de léger problème qui
                             pourrait apparaitre dans le futur est comprise dans le forfait de maintenance.
