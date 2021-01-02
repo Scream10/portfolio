@@ -9,8 +9,8 @@ function AcStudio () {
                     <p>ND PORTFOLIO</p>
                 </div>
                 <div className="projet-banner">
-                    <img src={process.env.PUBLIC_URL + "img/ac-studio-1.png"} alt="Projet Ombeline Durey"/>
-                    <h2>AC Studio</h2>
+                    <img src={process.env.PUBLIC_URL + "img/ac-studio-1.png"} alt="Projet Semi Office"/>
+                    <h2>Semi Office</h2>
                 </div>
                 <div className="projet-information">
                     <div className="projet-information__content">
@@ -28,7 +28,7 @@ function AcStudio () {
                     </div>
                     <div className="projet-information__content">
                         <h3>Site</h3>
-                        <a href="https://ac-studio.vercel.app/" target="_blank" rel="noreferrer">
+                        <a href="https://semi-office.herokuapp.com/" target="_blank" rel="noreferrer">
                             <i className="fas fa-globe fa-2x"></i>
                         </a>
                     </div>
@@ -43,7 +43,7 @@ function AcStudio () {
                     <img src={process.env.PUBLIC_URL + "img/projet-AC.png"} className="projet-concept__mac-mockup" alt="MacBook Pro Mockup"/>
                     <div className="projet-concept__text">
                         <h3>Résumé</h3>
-                        <p>AC Studio est le portfolio d'Antoine Chauvin, un designer d'objets et d'espaces situé
+                        <p>Semi Office est le portfolio d'Antoine Chauvin, un designer d'objets et d'espaces situé
                         à Paris. Le site a été pensé comment étant une galerie où l'on parcours les différents 
                         projets qu'Antoine réalise depuis plusieurs années.
                         </p>
@@ -58,7 +58,7 @@ function AcStudio () {
                         <h3>Version mobile</h3>
                         <p>Le site est responsive design, c'est à dire qu'il s'adapte à tous les écrans,
                         ordinateur, tablette et téléphone. Où que vous soyez, continuez à suivre les créations
-                        en design d'objets et d'espaces d'Antoine sur ac-studio.eu.
+                        en design d'objets et d'espaces d'Antoine sur semi-office.
                         </p>
                     </div>
                     <img src={process.env.PUBLIC_URL + "img/iphone-mockup-AC.png"} className="projet-concept__iphone-mockup" alt="MacBook Pro Mockup"/>

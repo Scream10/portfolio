@@ -25,7 +25,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/ombelinedurey' component={OmbelineDurey} />
-        <Route path='/acstudio' component={AcStudio} />
+        <Route path='/semioffice' component={AcStudio} />
         <Route path='/coachme' component={CoachMe} />
         <Route path='/apropos' component={APropos} />
         <Route path='/contact' component={Contact} />
