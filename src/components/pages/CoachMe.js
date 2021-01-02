@@ -58,7 +58,7 @@ function CoachMe () {
                 </div>
                 <div className="projet-change">
                     <div className="projet-change__prev">
-                        <a href="/acstudio">
+                        <a href="/semioffice">
                             <p>Projet précédent</p>
                             <div className="arrow arrow--prev"></div>
                         </a>

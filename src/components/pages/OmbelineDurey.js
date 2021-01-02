@@ -75,7 +75,7 @@ function OmbelineDurey () {
                         </a>
                     </div>
                     <div className="projet-change__next">
-                        <a href="/acstudio">
+                        <a href="/semioffice">
                             <p>Projet suivant</p>
                             <div className="arrow arrow--next"></div>
                         </a>
