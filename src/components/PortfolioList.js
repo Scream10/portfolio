@@ -23,7 +23,7 @@ function PortfolioList () {
                     <p>02</p>
                 </div>
                 <div className="portfolio__img">
-                    <a href="/acstudio">
+                    <a href="/semioffice">
                         <img src={process.env.PUBLIC_URL + "img/ac-studio-1.png"} alt="Projet AC Studio"/>
                     </a>
                 </div>
