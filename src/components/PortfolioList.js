@@ -28,7 +28,7 @@ function PortfolioList () {
                     </a>
                 </div>
                 <div className="portfolio__title">
-                    <h3>AC Studio</h3>    
+                    <h3>Semi Office</h3>    
                 </div>    
             </div>
             <div id="pos-btn-portoflio">
