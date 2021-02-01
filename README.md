@@ -1,7 +1,8 @@
 # Portfolio | Nicolas Diot
 
-Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
+Rendez moi visite ici → [nicolasdiot.fr](https://nicolasdiot.fr)
 
+## ! ANCIENNE VERSION !
 ## Outils de développement
 
 * ReactJS
@@ -12,18 +13,6 @@ Rendez moi visite ici → [nicolasdiot.com](https://nicolasdiot.com)
 * HTML / CSS
 * Javascript
 * Webpack
-
-## Lancer localement
-
-* npm install
-* npm start
-* Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
-
-Ou
-
-* yarn install
-* yarn start
-* Dispo sur le serveur [http://localhost:3000](http://localhost:3000)
 
 
 © Copyright 2020 - nicolasdiot.com
