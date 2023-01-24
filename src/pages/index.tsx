@@ -1,8 +1,9 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/navbar";
+import Header from "@/components/header";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -13,7 +14,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Navbar />
+        <Header />
       </main>
     </>
   );
-}
+};
+
+export default Home;

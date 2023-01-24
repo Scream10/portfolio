@@ -105,3 +105,27 @@ a {
     color-scheme: light;
   }
 }
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/aeonik/AeonikTRIAL-Regular.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ambit";
+  src: url("../fonts/ambit/Ambit-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ambit-Bold";
+  src: url("../fonts/ambit/Ambit-SemiBold.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/canela/Canela-Light-Trial.otf");
+  font-style: normal;
+}
