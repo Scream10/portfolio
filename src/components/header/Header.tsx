@@ -7,19 +7,29 @@ const Header = () => {
       <div>
         <div className={styles.title}>
           <div>
-            <h1 className={styles.aeonik}>F</h1>
+            <h1 className={styles.aeonik1}>
+              <span>F</span>
+            </h1>
           </div>
           <div>
-            <h1 className={styles.aeonik}>O</h1>
+            <h1 className={styles.aeonik2}>
+              <span>O</span>
+            </h1>
           </div>
           <div>
-            <h1 className={styles.aeonik}>L</h1>
+            <h1 className={styles.aeonik3}>
+              <span>L</span>
+            </h1>
           </div>
           <div>
-            <h1 className={styles.aeonik}>I</h1>
+            <h1 className={styles.aeonik4}>
+              <span>I</span>
+            </h1>
           </div>
           <div>
-            <h1 className={styles.aeonik}>O</h1>
+            <h1 className={styles.aeonik5}>
+              <span>O</span>
+            </h1>
           </div>
         </div>
       </div>

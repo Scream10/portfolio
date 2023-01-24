@@ -24,16 +24,48 @@
   align-items: center;
 }
 
-.aeonik {
-  font-size: 80px;
+.aeonik1,
+.aeonik2,
+.aeonik3,
+.aeonik4,
+.aeonik5 {
+  font-size: 136px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Aeonik, sans-serif;
   font-weight: 600;
   color: #000;
-  animation: slideIn 0.8s;
-  /* animation-delay: 0.6s; */
+  overflow: hidden;
+}
+
+.aeonik1 span {
+  animation: slideIn1 1000ms;
   animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: inline-block;
+}
+
+.aeonik2 span {
+  animation: slideIn1 1075ms;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: inline-block;
+}
+
+.aeonik3 span {
+  animation: slideIn1 1150ms;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: inline-block;
+}
+
+.aeonik4 span {
+  animation: slideIn1 1225ms;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: inline-block;
+}
+
+.aeonik5 span {
+  animation: slideIn1 1300ms;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: inline-block;
 }
 
 .ambit {
@@ -71,7 +103,11 @@
 }
 
 @media screen and (max-width: 479px) {
-  .aeonik {
+  .aeonik1,
+  .aeonik2,
+  .aeonik3,
+  .aeonik4,
+  .aeonik5 {
     font-size: 80px;
     font-family: Aeonik, sans-serif;
     font-weight: 600;
@@ -145,9 +181,12 @@
   }
 }
 
-@keyframes slideIn {
+@keyframes slideIn1 {
   0% {
-    transform: translateY(100px);
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(100%);
   }
   100% {
     transform: translateY(0px);
