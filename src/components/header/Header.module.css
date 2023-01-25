@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: calc(100vh - 40.5px);
+  padding-top: 288px;
+  padding-bottom: 288px;
 }
 
 .title {
@@ -29,7 +29,8 @@
 .aeonik3,
 .aeonik4,
 .aeonik5 {
-  font-size: 136px;
+  font-size: 80px;
+  line-height: 80px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Aeonik, sans-serif;
@@ -102,15 +103,14 @@
   animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 479px) {
   .aeonik1,
   .aeonik2,
   .aeonik3,
   .aeonik4,
   .aeonik5 {
-    font-size: 80px;
-    font-family: Aeonik, sans-serif;
-    font-weight: 600;
+    font-size: 104px;
+    line-height: 104px;
   }
 
   .ambit {
@@ -130,9 +130,33 @@
   }
 }
 
+@media screen and (min-width: 767px) {
+  .aeonik1,
+  .aeonik2,
+  .aeonik3,
+  .aeonik4,
+  .aeonik5 {
+    font-size: 136px;
+    line-height: 136px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .aeonik1,
+  .aeonik2,
+  .aeonik3,
+  .aeonik4,
+  .aeonik5 {
+    font-size: 244px;
+    line-height: 244px;
+    font-weight: 600;
+  }
+}
+
 @keyframes slideFadeIn {
   0% {
-    transform: translateY(100px);
+    transform: translateY(120px);
     opacity: 0;
   }
   25% {
@@ -150,7 +174,7 @@
     opacity: 0;
   }
   10% {
-    transform: translateY(100px);
+    transform: translateY(120px);
     opacity: 0;
   }
   35% {
@@ -168,7 +192,7 @@
     opacity: 0;
   }
   20% {
-    transform: translateY(100px);
+    transform: translateY(120px);
     opacity: 0;
   }
   45% {

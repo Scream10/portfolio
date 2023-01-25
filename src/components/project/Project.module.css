@@ -1,0 +1,41 @@
+.container {
+  padding: 25px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 480px;
+  margin-bottom: 52px;
+}
+
+.informationTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ambit12px {
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.ambitbold20px {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.informationBottom {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

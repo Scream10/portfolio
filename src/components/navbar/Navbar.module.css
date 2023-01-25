@@ -3,6 +3,17 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .nav {
+    padding: 35px 46px 24px 46px;
+  }
 }
 
 .container {
@@ -32,13 +43,82 @@
   background-color: #fff;
 }
 
-@media screen and (max-width: 479px) {
-  .ambit {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: Ambit-Bold, sans-serif;
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
+.ambit {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.ambitHide {
+  position: absolute;
+  bottom: -105%;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.ambit400 {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.ambit400Hide {
+  position: absolute;
+  bottom: -105%;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.navLeft {
+  display: flex;
+}
+
+.navLeftContent {
+  margin-right: 32px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.navLeftContent:hover > h5 {
+  animation: slideUp 500ms;
+  transform-style: preserve-3d;
+}
+
+.navRightContent {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.navRightContent:hover > h5 {
+  animation: slideUp 500ms;
+  transform-style: preserve-3d;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
   }
 }
