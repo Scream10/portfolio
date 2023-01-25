@@ -8,6 +8,25 @@
   margin-bottom: 52px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    height: 640px;
+    margin-bottom: 78px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
 .informationTop {
   display: flex;
   justify-content: space-between;
@@ -38,4 +57,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+  .informationBottom {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+.wrapperImage {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
 }

@@ -7,13 +7,11 @@ import Project from "@/components/project";
 const Home = () => {
   const Projects = () => {
     return (
-      <div>
-        {Array.from(Array(10).keys()).map((_, index) => (
-          <div key={index}>
-            <Project />
-          </div>
+      <>
+        {[1, 2, 3].map((_, index) => (
+          <Project key={index} />
         ))}
-      </div>
+      </>
     );
   };
 

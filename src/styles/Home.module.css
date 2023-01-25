@@ -5,3 +5,16 @@
 .container {
   padding: 0 26px;
 }
+
+@media screen and (min-width: 767px) {
+  .container {
+    padding: 0 36px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
