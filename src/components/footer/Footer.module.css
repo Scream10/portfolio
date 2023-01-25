@@ -1,0 +1,12 @@
+.footer {
+  padding: 75px 106px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.animatedFooter {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
