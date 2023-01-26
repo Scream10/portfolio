@@ -10,8 +10,7 @@ const Navbar = () => {
     setIsDarkTheme(!isDarkTheme);
   };
 
-  // if (width <= 992px) {
-  if (width !== undefined) {
+  if (width && width >= 767) {
     return (
       <div className={styles.nav}>
         <div className={styles.navLeft}>

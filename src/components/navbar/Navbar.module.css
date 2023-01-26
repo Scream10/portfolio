@@ -20,11 +20,6 @@
   display: flex;
 }
 
-.dotActive:hover,
-.dot:hover {
-  cursor: pointer;
-}
-
 .dot {
   width: 0.75rem;
   height: 0.75rem;
@@ -40,7 +35,7 @@
   margin-right: 0.3125rem;
   border: 0.0625rem solid #000;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .ambit {

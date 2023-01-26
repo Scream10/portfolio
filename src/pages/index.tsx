@@ -34,7 +34,7 @@ const Home = () => {
           style={{
             height: "100vh",
             width: "100%",
-            backgroundColor: "black",
+            backgroundColor: "rgb(15, 15, 15)",
             marginTop: 50,
           }}
         />

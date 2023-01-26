@@ -6,6 +6,30 @@
   justify-content: space-between;
   height: 480px;
   margin-bottom: 52px;
+  width: 100%;
+  transition: background 800ms;
+}
+
+.container:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+.container:hover .ambit12px,
+.container:hover .ambitbold20px {
+  color: white;
+}
+
+.container:hover .imageHover {
+  opacity: 1;
+}
+
+.container:hover .dot,
+.container:hover .dotActive {
+  border: 0.0625rem solid #fff;
+}
+
+.container:hover .dotActive {
+  background-color: #fff;
 }
 
 @media screen and (min-width: 480px) {
@@ -27,6 +51,12 @@
   }
 }
 
+@media screen and (min-width: 1199px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
 .informationTop {
   display: flex;
   justify-content: space-between;
@@ -40,6 +70,7 @@
   font-family: Ambit, sans-serif;
   font-weight: 400;
   color: #000;
+  transition: color 800ms;
 }
 
 .ambitbold20px {
@@ -50,6 +81,7 @@
   font-family: Ambit-Bold, sans-serif;
   font-weight: 600;
   color: #000;
+  transition: color 800ms;
 }
 
 .informationBottom {
@@ -72,6 +104,7 @@
 .wrapperImage {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .image {
@@ -82,4 +115,38 @@
   object-fit: contain;
   vertical-align: middle;
   display: inline-block;
+}
+
+.imageHover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  opacity: 0;
+  transition: opacity 800ms;
+}
+
+.containerDot {
+  display: flex;
+}
+
+.dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.3125rem;
+  border: 0.0625rem solid #000;
+  border-radius: 100%;
+  background-color: #000;
+  transition: border 800ms;
+}
+
+.dotActive {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.3125rem;
+  border: 0.0625rem solid #000;
+  border-radius: 100%;
+  background-color: transparent;
+  transition: border 800ms, background 800ms;
 }
