@@ -5,8 +5,167 @@
   justify-content: space-between;
 }
 
-.animatedFooter {
-  height: 50px;
+.description {
+  max-width: 240px;
+  margin-bottom: 75px;
+}
+
+.ambit12px {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.ambitbold12px {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.ambitbold12pxHide {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -105%;
+}
+
+.ambitbold14px {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+  margin: 0 15px;
+}
+
+.ambitbold20px {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Ambit-Bold, sans-serif;
+  font-weight: 600;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.arrowIcon {
+  margin-left: 6px;
+}
+
+.inquireContainer {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.inquireContainer:hover > p {
+  cursor: pointer;
+  animation: slideUp 500ms;
+  transform-style: preserve-3d;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.footerRightContent {
+  display: flex;
+}
+
+.rightSection {
+  margin-right: 130px;
+}
+
+.informationContainer {
+  margin-top: 28px;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.linkExternal {
+  margin-top: 20px;
+}
+
+.linkTop {
+  margin-top: 28px;
+}
+
+.link,
+.linkExternal,
+.linkTop {
+  width: fit-content;
+}
+
+.link:hover .linkUnderline,
+.linkExternal:hover .linkUnderline,
+.linkTop:hover .linkUnderline {
   width: 100%;
+}
+
+.linkUnderline {
+  margin-top: 4px;
+  width: 0%;
+  height: 1px;
+  background-color: #000;
+  transition: width 500ms ease-out;
+}
+
+.animatedFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 50px;
   background-color: white;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  animation: scroll-text-footer 20s linear infinite;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes scroll-text-footer {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
 }
