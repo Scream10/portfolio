@@ -1,0 +1,238 @@
+.banner {
+  margin-top: 50px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allContainer {
+  height: 300px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mainTitle,
+.title {
+  display: flex;
+}
+
+.mainTitle,
+.title {
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 80px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aeonik1,
+.aeonik2,
+.aeonik3,
+.aeonik4,
+.aeonik5,
+.aeonik6,
+.aeonik7,
+.aeonik8,
+.aeonik9 {
+  font-size: 63px;
+  line-height: 63px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Aeonik, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  overflow: hidden;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.title:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .allContainer {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .aeonik4 {
+    margin-right: 30px;
+  }
+
+  .title:nth-child(1) {
+    margin-bottom: 80px;
+  }
+
+  .mainTitle {
+    flex-direction: row;
+  }
+
+  .aeonik1,
+  .aeonik2,
+  .aeonik3,
+  .aeonik4,
+  .aeonik5,
+  .aeonik6,
+  .aeonik7,
+  .aeonik8,
+  .aeonik9 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .allContainer {
+    padding: 0 100px;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+}
+
+.icon {
+  filter: grayscale(100%);
+}
+
+.icon:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+#react,
+#expo,
+#redux,
+#next,
+#javascript,
+#typescript,
+#sass,
+#storybook,
+#styledComponents,
+#mui,
+#tailwind,
+#graphql,
+#framer,
+#jest,
+#cypress,
+#webpack,
+#npm,
+#git {
+  filter: grayscale(100%) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+  transition: filter 0.3s ease-out 1.8s;
+}
+
+#react:hover,
+#expo:hover,
+#redux:hover,
+#next:hover,
+#javascript:hover,
+#typescript:hover,
+#sass:hover,
+#storybook:hover,
+#styledComponents:hover,
+#mui:hover,
+#tailwind:hover,
+#graphql:hover,
+#framer:hover,
+#jest:hover,
+#cypress:hover,
+#webpack:hover,
+#npm:hover,
+#git:hover {
+  cursor: pointer;
+  transition: filter 0.3s ease-out;
+}
+
+#react:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(96, 218, 251, 0.8));
+}
+
+#expo:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.8));
+}
+
+#redux:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(157, 110, 205, 0.8));
+}
+
+#next:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(246, 246, 246, 0.8));
+}
+
+#javascript:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(239, 216, 26, 0.8));
+}
+
+#typescript:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(47, 115, 191, 0.8));
+}
+
+#sass:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(199, 99, 148, 0.8));
+}
+
+#storybook:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(254, 70, 133, 0.8));
+}
+
+#styledComponents:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(252, 146, 221, 0.8));
+}
+
+#mui:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(2, 127, 254, 0.8));
+}
+
+#tailwind:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(5, 182, 211, 0.8));
+}
+
+#graphql:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(229, 53, 171, 0.8));
+}
+
+#framer:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.8));
+}
+
+#jest:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(190, 60, 25, 0.8));
+}
+
+#cypress:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(34, 233, 157, 0.8));
+}
+
+#webpack:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(149, 213, 250, 0.8));
+}
+
+#npm:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(191, 54, 53, 0.8));
+}
+
+#git:hover {
+  filter: grayscale(0%) drop-shadow(0px 0px 20px rgba(240, 80, 47, 0.8));
+}

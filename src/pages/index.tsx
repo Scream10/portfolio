@@ -4,6 +4,8 @@ import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 import Project from "@/components/project";
 import Footer from "@/components/footer";
+import Banner from "@/components/banner";
+import Reviews from "@/components/reviews";
 
 const Home = () => {
   const Projects = () => {
@@ -30,14 +32,8 @@ const Home = () => {
         <div className={styles.container}>
           <Projects />
         </div>
-        <div
-          style={{
-            height: "100vh",
-            width: "100%",
-            backgroundColor: "rgb(15, 15, 15)",
-            marginTop: 50,
-          }}
-        />
+        <Banner />
+        <Reviews />
         <Footer />
       </main>
     </>

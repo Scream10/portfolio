@@ -67,18 +67,19 @@ const Footer: React.FC = () => {
       </div>
       <div className={styles.animatedFooter}>
         <div className={styles.track}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(
-            (_, index) => (
-              <div className={styles.containerText} key={index}>
-                <p className={styles.ambit12px}>
-                  WEBSITE & MOBILE DEVELOPMENT BY YOURS TRULY
-                </p>
-                <div>
-                  <p className={styles.ambitbold14px}>ND © 2023</p>
-                </div>
+          {[
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+            20,
+          ].map((_, index) => (
+            <div className={styles.containerText} key={index}>
+              <p className={styles.ambit12px}>
+                WEBSITE & MOBILE DEVELOPMENT BY YOURS TRULY
+              </p>
+              <div>
+                <p className={styles.ambitbold14px}>ND © 2023</p>
               </div>
-            )
-          )}
+            </div>
+          ))}
         </div>
       </div>
     </div>
