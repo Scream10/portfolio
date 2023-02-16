@@ -188,6 +188,9 @@ const Banner: React.FC = () => {
           <h1 className={styles.aeonik9}>
             <span>K</span>
           </h1>
+          <h1 className={styles.aeonik9}>
+            <span>.</span>
+          </h1>
         </div>
       </div>
       {<RenderLogo />}
