@@ -46,7 +46,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - Github
 - Github Actions
-- CD / CI
 
 #### Deploiment :
 
@@ -62,7 +61,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Patterns :
 
-- TDD
 - Hexagonal Architecture
 
 #### Best practice :
